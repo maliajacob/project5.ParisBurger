@@ -1,0 +1,41 @@
+.fontR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.fontS {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    background-color: black
+}
+
+.navbar {
+    justify-content: space-between;
+    background-color: #f1a536;
+    border-bottom: 2px solid white;
+    padding: 0px 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 10px;
+}
+
+.footer {
+    justify-content: space-between;
+    background-color: #f1a536;
+    padding: 30px 40px;
+}
