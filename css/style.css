@@ -1,3 +1,14 @@
+.fontXL {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fontL {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
 .fontR {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
@@ -23,7 +34,10 @@ body {
     justify-content: space-between;
     background-color: #f1a536;
     border-bottom: 2px solid white;
-    padding: 0px 40px;
+    padding: 0px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 30;
 }
 
 ul {
@@ -37,5 +51,40 @@ li {
 .footer {
     justify-content: space-between;
     background-color: #f1a536;
-    padding: 30px 40px;
+    padding: 30px 100px;
+}
+
+.whiteHeading {
+    background: white;
+    position: absolute;
+    padding: 15px 20px;
+    bottom: 200px;
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 2%;
+    height: 570px;
+}
+
+.everydayCatagories {
+    background-color: white;
+    padding: 20px 90px;
+}
+
+.everydayCatagoriesImages > img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.everydayCatagoriesImages {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+p {
+    justify-content: space-around;
+
 }
