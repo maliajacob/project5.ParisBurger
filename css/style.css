@@ -4,22 +4,18 @@
     font-weight: bold;
     margin: 40px 0px 20px 0px;
 }
-
 .fontL {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
-
 .fontR {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
 }
-
 .fontS {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8rem;
 }
-
 .flex {
     display: flex;
     justify-content: center;
@@ -28,7 +24,6 @@
 
 body {
     margin: 0px;
-    background-color: black
 }
 
 .navbar {
@@ -40,21 +35,26 @@ body {
     top: 0;
     z-index: 30;
 }
-
 ul {
     list-style-type: none;
 }
-
 li {
-    padding: 0px 10px;
+    padding: 0px 30px;
 }
-
+li:hover {
+    opacity: 50%;
+}
 .footer {
     justify-content: space-between;
     background-color: #f1a536;
     padding: 30px 100px;
 }
-
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 2%;
+    height: 570px;
+}
 .whiteHeading {
     background: white;
     position: absolute;
@@ -62,34 +62,52 @@ li {
     bottom: 220px;
 }
 
-.hero-image {
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 2%;
-    height: 570px;
-}
-
 .everydayCatagories {
     background-color: white;
-    padding: 20px 90px;
+    padding: 10px 130px 50px 120px;
 }
-
-.everydayCatagoriesImages > img {
-    height: 260px;
-    width: 390px;
+.everydayCatagories img {
+    height: 270px;
+    width: 375px;
     object-fit: cover;
 }
 
-.everydayCatagoriesImages {
+.figureSpaceBetween {
     justify-content: space-between;
-    padding: 4px;
 }
-
-p {
-    justify-content: space-around;
+figure {
+    margin: 0px;
+}
+figcaption {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
 }
 
 .healthyRecipes {
     background-color: #dadfea;
-    padding: 20px 90px;
+    padding: 10px 130px 80px 120px;
+}
+.healthyRecipes img {
+    height: 210px;
+    width: 270px;
+    object-fit: cover;
+}
+.healthyRecipes figcaption {
+    background-color: white;
+    padding: 15px;
+    margin: -5px 0px;
+}
+
+.whereToEat {
+    background-color: white;
+    padding: 10px 130px 50px 120px;
+    justify-content: space-between;
+}
+.whereToEat img {
+    height: 270px;
+    width: 375px;
+    object-fit: cover;
+    border: 5px solid #dadfea;
 }
