@@ -2,6 +2,7 @@
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    margin: 40px 0px 20px 0px;
 }
 
 .fontL {
@@ -58,7 +59,7 @@ li {
     background: white;
     position: absolute;
     padding: 15px 20px;
-    bottom: 200px;
+    bottom: 220px;
 }
 
 .hero-image {
@@ -74,17 +75,21 @@ li {
 }
 
 .everydayCatagoriesImages > img {
-    height: 200px;
-    width: 300px;
+    height: 260px;
+    width: 390px;
     object-fit: cover;
 }
 
 .everydayCatagoriesImages {
     justify-content: space-between;
-    padding: 20px;
+    padding: 4px;
 }
 
 p {
     justify-content: space-around;
+}
 
+.healthyRecipes {
+    background-color: #dadfea;
+    padding: 20px 90px;
 }
