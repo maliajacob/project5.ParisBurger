@@ -1,3 +1,13 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+.fontXXL {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 40px 0px -30px 0px;
+}
 .fontXL {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 2rem;
@@ -22,10 +32,6 @@
     align-items: center;
 }
 
-body {
-    margin: 0px;
-}
-
 .navbar {
     justify-content: space-between;
     background-color: #f1a536;
@@ -35,7 +41,10 @@ body {
     top: 0;
     z-index: 30;
 }
-ul {
+.navbar ul {
+    list-style-type: none;
+}
+footer ul {
     list-style-type: none;
 }
 li {
@@ -136,7 +145,47 @@ figcaption {
     object-position: 0% 75%;
     height: 570px;
 }
-
+.recipeInfo {
+    background-color: #dadfea;
+    padding: 20px 117px 30px 117px;
+}
+.recipeInfoSpecifics {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipeInfoSpecifics p {
+    background-color: #dadfea;
+    display: flex;
+    margin: 20px 200px 0px 0px;
+}
+#timeMargin {
+    margin: 10px 0 -20px 0;
+}
+.recipeInstructions {
+    background-color: white;
+    flex-direction: column;
+    padding: 50px 117px;
+}
+.rating {
+    width: 20%;
+}
+.recipeInstructions p {
+    background-color: #dadfea;
+    font-weight: bold;
+    opacity: 60%;
+    padding: 30px 200px;
+    text-align: center;
+}
+.Ingredients {
+    width: 500px;
+}
+.flexID {
+    display: flex;
+    justify-content: center;
+}
+.Directions {
+    width: 300px
+}
 @media only screen and (max-width: 880px) {
     .mobileNav {
         display: none;
@@ -144,14 +193,17 @@ figcaption {
     .menuBar {
         display: block;
     }
+    .fontXXL {
+        font-size: 30px;
+    }
     .fontXL {
-        font-size: 20px;
+        font-size: 25px;
     }
     .fontL {
-        font-size: 15px;
+        font-size: 18px;
     }
     .fontR {
-        font-size: 10px;
+        font-size: 15px;
     }
     figcaption {
         font-size: 15px;
@@ -159,4 +211,25 @@ figcaption {
     footer {
         flex-direction: column-reverse;
     }
+    .rating {
+        min-width: 30%;
+    }
+    .recipeInstructions p {
+        padding: 20px 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .flexID{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .Ingredients {
+        margin: 0px 40px;
+
+    }
+    .Directions {
+        margin: 0px 40px;
+    } */
 }
