@@ -41,6 +41,10 @@ ul {
 li {
     padding: 0px 30px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 li:hover {
     opacity: 50%;
 }
@@ -70,13 +74,17 @@ li:hover {
     height: 270px;
     width: 375px;
     object-fit: cover;
+    padding: 10px 15px;
 }
 
-.figureSpaceBetween {
-    justify-content: space-between;
+.mobileImages {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 figure {
-    margin: 0px;
+    margin: 20px 0px;
 }
 figcaption {
     padding: 10px;
@@ -93,11 +101,13 @@ figcaption {
     height: 210px;
     width: 270px;
     object-fit: cover;
+    padding: 10px 15px;
 }
 .healthyRecipes figcaption {
     background-color: white;
     padding: 15px;
-    margin: -5px 0px;
+    margin: -15px 15px;
+    max-width: 245px;
 }
 
 .whereToEat {
@@ -110,4 +120,43 @@ figcaption {
     width: 375px;
     object-fit: cover;
     border: 5px solid #dadfea;
+    margin: 10px;
+}
+.menuBar {
+    display: none; 
+    font-size: 30px;
+    background-color: #f1a536;
+    border: 2px solid black;
+    border-radius: 5px;
+    opacity: 60%;
+}
+.hamburger-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 75%;
+    height: 570px;
+}
+
+@media only screen and (max-width: 880px) {
+    .mobileNav {
+        display: none;
+    }
+    .menuBar {
+        display: block;
+    }
+    .fontXL {
+        font-size: 20px;
+    }
+    .fontL {
+        font-size: 15px;
+    }
+    .fontR {
+        font-size: 10px;
+    }
+    figcaption {
+        font-size: 15px;
+    }
+    footer {
+        flex-direction: column-reverse;
+    }
 }

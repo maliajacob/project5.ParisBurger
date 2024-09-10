@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="flex navbar">
         <div>
             <a href="index.html"><img src="images/ryparis-logo.png" alt="RY PARIS"></a>
         </div>
-        <ul class="flex fontR">
-            <li>Popular Recipes</li>
-            <li>What's New</li>
-            <li>Catagories</li>
-            <li>Meal Ideas</li>
+        <ul class="flex mobileNav fontR">
+            <li><a href="recipe.html">Popular Recipes</a></li>
+            <li><a href="recipe.html">What's New</a></li>
+            <li><a href="recipe.html">Catagories</a></li>
+            <li><a href="recipe.html">Meal Ideas</a></li>
         </ul>
+        <button class="menuBar" aria-label="toggle-navigation">
+            <span class="fa fa-solid fa-bars"></span>
+        </button>
     </div>
+
     <div class="flex">
         <img src="images/hero-image.jpg" alt="Charcuterie boards" class="hero-image">
         <h1 class="whiteHeading fontXL">START THE WEEK OFF RIGHT</h1>
     </div>
+
     <div class="everydayCatagories">
         <div>
             <h1 class="fontXL">Everyday Catagories</h1>
@@ -31,7 +37,7 @@
             </p>
         </div>
 
-        <div class="flex figureSpaceBetween">
+        <div class="flex mobileImages">
             <figure>
                 <img src="images/breakfast-ideas.jpg" alt="Breakfast with coffee and toast">
                 <figcaption >Breakfast Most Important Meal</figcaption>
@@ -46,13 +52,15 @@
             </figure>            
         </div>
     </div>
+
+
     <div class="healthyRecipes">
         <h1 class="fontXL">Healthy Recipes of the Week</h1>
         <p class="fontL">
             This week top award winner to critically-acclaimed recipe gems, check out 
             these original recipes from home cook and professinal chefs around the country.
         </p>
-        <div class="flex figureSpaceBetween">
+        <div class="flex mobileImages">
             <figure>
                 <img src="images/fajita-peppers.jpeg" alt="Fajita-Stuffed Peppers">
                 <figcaption>Fajita-Stuffed Peppers</figcaption>
@@ -66,7 +74,7 @@
                 <figcaption>Eggplant Parmesan</figcaption>
             </figure>
             <figure>
-                <img src="images/bengal-burger.jpg" alt="Bengal Burger">
+                <img src="images/burger.jpg" alt="Bengal Burger">
                 <figcaption>Bengal Burger</figcaption>
             </figure>
         </div>
@@ -82,7 +90,7 @@
             Tel Aviv, and testing menus of Mexico City will always top many people's lists of cravings, we're continually
             on the lookout for something new to fill our bellies, our passports, and out feeds.
         </p>
-        <div class="flex figureSpaceBetween">
+        <div class="flex mobileImages">
             <figure>
                 <img src="images/burger.jpg" alt="Sandwhiches">
                 <figcaption >Best Sandwiches in America</figcaption>
