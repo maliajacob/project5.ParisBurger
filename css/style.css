@@ -213,6 +213,9 @@ figcaption {
     footer {
         flex-direction: column-reverse;
     }
+    footer li {
+        line-height: 100%;
+    }
     .rating {
         min-width: 30%;
     }
